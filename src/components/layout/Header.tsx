@@ -11,13 +11,13 @@ export const Header = () => {
       <h1 className="text-xl font-bold">My React App</h1>
       <nav className="flex gap-2">
         <NavLink to="/" className={linkClass}>
-          Countries
+          Bài 1
         </NavLink>
         <NavLink to="/exchange" className={linkClass}>
-          Exchange
+          Bài 2
         </NavLink>
         <NavLink to="/movies" className={linkClass}>
-          Movies
+          Bài 3
         </NavLink>
       </nav>
     </header>
